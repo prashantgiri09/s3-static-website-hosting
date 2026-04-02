@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: #000;
+    color: white;
+    overflow-x: hidden;
+    font-size: 1.4rem;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 5%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 2.4rem;
+    color: #b74b4b;
+    font-weight: 800;
+  }
+  
+  nav a {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #b74b4b;
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 7rem 5% 5rem;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .typing-text {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+  }
+  
+  .description {
+    font-size: 1.4rem;
+    color: #ccc;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .home-img img {
+    width: 260px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 50% / 40%;
+    border: 2px solid #b74b4b;
+    box-shadow: 0 0 15px #b74b4b;
+  }
+  
+  .social-icons {
+    margin: 1.5rem 0;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+    line-height: 3.5rem;
+    text-align: center;
+    border: 2px solid #b74b4b;
+    border-radius: 50%;
+    color: white;
+    transition: 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background: #b74b4b;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.8rem 2rem;
+    border: 2px solid #b74b4b;
+    border-radius: 25px;
+    color: #b74b4b;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: transparent;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #b74b4b;
+    color: black;
+    box-shadow: 0 0 15px #b74b4b;
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+    }
+  
+    .home-img {
+      order: 1;
+    }
+  
+    .home-content {
+      order: 2;
+      text-align: center;
+    }
+  
+    .home-content h1 {
+      font-size: 2.4rem;
+    }
+  
+    .typing-text {
+      font-size: 1.8rem;
+    }
+  
+    .description {
+      font-size: 1.3rem;
+      margin: auto;
+    }
+  
+    .home-img img {
+      width: 200px;
+      height: 280px;
+    }
+  }
+ 
+
+    
